@@ -36,7 +36,7 @@ pipeline {
             }
         }
 
-        stage('Push to DockerHub') {
+        stage('Push into DockerHub') {
             steps {
                 script{
                     push("expensetracker-app","latest","hemasundharamkolla")
